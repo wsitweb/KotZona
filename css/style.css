@@ -892,10 +892,12 @@ h1.title {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 100%;
       -ms-flex: 100%;
           flex: 100%;
-  margin: 0 auto;
 }
 .about-us .links a {
   color: white;
