@@ -8,10 +8,12 @@
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<script src="./js/app-dist.js" defer></script>
 </head><body class="bg-three">
 <header>
 	<div class="header wrap">
-				<a href="./index.html" class="logo"><img src="./img/svg/logo.svg" alt="logo"></a>
+			<a href="./index.html" class="logo"><img src="./img/svg/logo.svg" alt="logo"></a>
+			<div class="header__nav">
 				<ul class="menu">
 							<li><a href="./index.html">Главная </a></li>
 							<li><a href="./about-us-page.html">О Нас</a></li>
@@ -21,6 +23,10 @@
 							<a href="./login-page.html">Вход</a>
 							<a href="./register-page.html">Регистрация</a>
 				</div>
+			</div>
+			<div class="burger">
+				<div class="burger__item"></div>
+			</div>
 	</div>
 </header>	<main>
 		<div class="login wrap-small">
@@ -33,7 +39,7 @@
 					<input type="number">
 					<img src="./img/captcha.jpg" alt="captcha" class="captcha">
 					<button>Войти</button>
-					<a href="#">Регистрация</a>
+					<a href="./register-page.html">Регистрация</a>
 				</form>
 			</div>
 		</div>
